@@ -159,11 +159,14 @@ echo 'I love to eat fruits';
   }
 
   //php function
-  function person($name, $age){
+  function person($name, $age = 2){
     echo "They are $name and age is $age <br>";
   }
-  person(shaharin, 24);
-  person(Shahed, 23);
+  person("shaharin", 24);
+  person("Shahed", 23);
+  person("Shahed");
+
+  //php date and time
   ?>
 </body>
 </html>
