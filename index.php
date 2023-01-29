@@ -16,8 +16,8 @@
   echo 'My age is ' . $age . ', I read in class 12' . '<br>';
 
   //
-  $x = 10;
-  $y = 30;
+  $x = 3;
+  $y = 3;
   echo $x + $y . '<br>';
 
   //php echo and print statement
@@ -87,6 +87,40 @@ echo(cars[0]);
 echo (a);
 var_dump(cars);
 var_dump(a);
-  ?>
+//
+function name(){
+  $x = 25;
+  echo($x) . '<br>';
+  echo(cars[0]) . '<br>';
+}
+name();
+
+//php operator
+echo ($x + $y) . '<br>';
+echo $x % $y . '<br>';
+echo $x ** $y . '<br>'; // to the power
+
+//Assignment operator
+$z = $x + $y;
+$x += $y; // $x = $x + $y;
+$x -= $y ; // $x = $x - $y;
+$x *= $y ; // $x = $x * $y;
+$x /= $y ; // $x = $x / $y;
+echo $x = $y . '<br>';
+echo $x;
+echo $z;
+
+//php comparison operator
+$a = 50;
+$b = '50';
+//var_dump($a == $b);
+var_dump($a === $b);
+var_dump($a != $b);
+var_dump($a !== $b);
+var_dump($a <= $b);
+var_dump($a >= $b);
+//php if else
+
+?>
 </body>
 </html>
