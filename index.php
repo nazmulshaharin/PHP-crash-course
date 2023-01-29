@@ -120,7 +120,50 @@ var_dump($a !== $b);
 var_dump($a <= $b);
 var_dump($a >= $b);
 //php if else
+  $date = date('H');
+  if($date > 20){
+    // echo 'Good Morning';
+    echo 'Good Morning' . $date;
+  } else{
+   echo 'Good Night'. $date;
+  }
 
-?>
+  //php switch
+  switch('blue'){
+    case 'red':
+    echo 'apple is red';
+    break;
+case 'green':
+  echo 'Mango is green';
+  break;
+default:
+echo 'I love to eat fruits';
+  }
+
+  //php loop
+  $x = 2;
+  // while($x <= 5){
+  //   echo "The number is : $x  <br>";
+  //   $x++;
+  // }
+//or
+  // do{
+  //   echo "The number is : $x  <br>";
+  //   $x++;
+  // }while($x <= 5);
+  // for($y = 0; $y <= 10; $y++){
+  //   echo "The number is : $y  <br>";
+  // }
+  for($y = 0; $y <= 50; $y+=2){
+    echo "The number is : $y  <br>";
+  }
+
+  //php function
+  function person($name, $age){
+    echo "They are $name and age is $age <br>";
+  }
+  person(shaharin, 24);
+  person(Shahed, 23);
+  ?>
 </body>
 </html>
